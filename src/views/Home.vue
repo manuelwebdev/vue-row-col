@@ -1,7 +1,37 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <v-row justify="end" align="center" no-gutters>
+      <v-col cols="4">
+        <v-img
+          src="https://picsum.photos/id/11/500/300"
+          lazy-src="https://picsum.photos/id/11/10/6"
+          aspect-ratio="1"
+          class="grey lighten-2"
+          max-width="500"
+          max-height="300"
+        ></v-img>
+      </v-col>
+      <v-col cols="4">
+        <v-img
+          src="https://picsum.photos/id/11/500/300"
+          lazy-src="https://picsum.photos/id/11/10/6"
+          aspect-ratio="1"
+          class="grey lighten-2"
+          max-width="500"
+          max-height="300"
+        ></v-img>
+      </v-col>
+      <v-col cols="4">
+        <v-img
+          src="https://picsum.photos/id/11/500/300"
+          lazy-src="https://picsum.photos/id/11/10/6"
+          aspect-ratio="1"
+          class="grey lighten-2"
+          max-width="500"
+          max-height="300"
+        ></v-img>
+      </v-col>
+    </v-row>
   </div>
 </template>
 
